@@ -8,16 +8,16 @@
  */
 int main(void)
 {
-int d;
-char ch;
-for (d = '0'; d <= '9'; ch++)
-{
-putchar(d + '0');
-}
-for (ch = 'a'; ch <= 'f'; ch++)
-{
-putchar(ch);
-}
-putchar('\n');
-return (0);
+	char ch;
+
+	for (ch = '0'; ch <= '9'; ch++)
+	{
+		putchar(ch);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
