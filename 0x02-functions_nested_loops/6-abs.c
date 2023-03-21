@@ -8,7 +8,7 @@
 
 int abs(int n)
 {
-if (n >= 0 )
+if (n >= 0)
 {
 int abs_val;
 abs_val = n * -1;
