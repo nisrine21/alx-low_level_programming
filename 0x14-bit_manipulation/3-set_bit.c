@@ -15,8 +15,8 @@ if (index > sizeof(unsigned long int) * 8)
 {
 return (-1);
 }
-a = ~(1UL << index);
-*n |= a;
+m = 1 << index;
+*n = (*n | m);
 
 return (1);
 }
